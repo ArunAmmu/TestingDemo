@@ -28,6 +28,7 @@ public class RunnerClass {
 
 public static void start () {
     driver = new ChromeDriver();
+
 }
 
 @AfterClass
