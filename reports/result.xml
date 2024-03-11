@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="3.503">
+<testcase classname="Login and Product Listing" name="User logs in and verifies product listing" time="2.165">
+<system-out><![CDATA[Given User is on the login page.............................................passed
+When user logs in with valid credentials....................................passed
+Then product listing is displayed...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login and Product Listing" name="User sorts product listing and adds to cart" time="1.054">
+<system-out><![CDATA[Given user sorts product listing by "Price (low to high)"...................passed
+When user adds first 3 low-priced products to cart..........................passed
+And user proceeds to checkout...............................................passed
+Then verify cart contains 3 items...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
